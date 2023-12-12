@@ -16,4 +16,14 @@ fun main(args: Array<String>) {
     // Try adding program arguments via Run/Debug configuration.
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
     println("Program arguments: ${args.joinToString()}"+ mul)
+
+//    if else conditions
+    if(x==4){
+        println("x is 4")
+    } else if(x==4){
+        println("x is 3")
+    }
+
+//    we can use if-else conditions as variables
+    var z = if(x==4) 2 else 3
 }
